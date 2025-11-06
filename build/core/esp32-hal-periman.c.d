@@ -1,0 +1,32 @@
+C:\Users\ctgcontrols8601\Documents\GitHub\LckidsLabs\advanced_thermostat_arduino\build\core\esp32-hal-periman.c.o: \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.2\cores\esp32\esp32-hal-periman.c \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.2\cores\esp32\esp32-hal-log.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/qio_opi/include/sdkconfig.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_timer/include/esp_timer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/newlib/platform_include/stdio.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_err.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_compiler.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_hw_support/include/esp_etm.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/soc/esp32s3/include/soc/soc.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_assert.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_bit_defs.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/soc/esp32s3/register/soc/reg_base.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/soc/esp32s3/include/soc/soc_caps.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_config.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_level.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_color.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_buffer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_timestamp.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_write.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_format.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_args.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_macros.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_assert.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_log_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/esp_common/include/esp_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-07e9bf49-v1\esp32s3/include/log/include/esp_private/log_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.2\cores\esp32\esp32-hal-periman.h
