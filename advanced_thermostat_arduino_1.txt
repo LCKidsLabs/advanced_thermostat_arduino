@@ -1,0 +1,48 @@
+
+#include "BLEDevice.h"
+#include "BLEUtils.h"
+#include "BLEScan.h"
+#include "BLEAdvertisedDevice.h"
+
+#define NEW_LINE "\r\n"
+
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  int loops = 0;
+  while (loops < 10) {
+    Serial.print('.');
+    delay(1000);
+    loops++;
+  }
+  BLEDevice::init("");
+
+  String macAddress = "A4:C1:38:00:00:01";
+  BLEAddress *myDevice = new BLEAddress(macAddress);
+  Serial.print("Before BLEClient" NEW_LINE);
+  BLEClient *pClient = BLEDevice::createClient();
+  Serial.print("After BLEClient" NEW_LINE);
+
+  Serial.print("Before pClient->connect(*myDevice);" NEW_LINE);
+  pClient->connect(*myDevice);
+  Serial.print("After pClient->connect" NEW_LINE);
+
+  Serial.print("Before pClient->setMTU(517)" NEW_LINE);
+  pClient->setMTU(517);
+  Serial.print("After pClient->setMTU(517)" NEW_LINE);
+  
+  Serial.print("Before" NEW_LINE);
+  std::map<std::string, BLERemoteService *> *foundServices = pClient->getServices();
+  Serial.print("After" NEW_LINE);
+  if (nullptr == foundServices) {
+    Serial.print("No services found!" NEW_LINE);
+  } else {
+    Serial.printf("%d services found" NEW_LINE, foundServices->size());
+  }
+  pClient->disconnect();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
