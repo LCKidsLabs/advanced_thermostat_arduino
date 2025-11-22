@@ -1,102 +1,77 @@
 C:\Users\ctgcontrols8601\Documents\GitHub\LckidsLabs\advanced_thermostat_arduino\build\libraries\BLE\BLEService.cpp.o: \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEService.cpp \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/soc_caps.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/qio_qspi/include/sdkconfig.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_err.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/newlib/platform_include/stdio.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_compiler.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/soc_caps.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/dio_qspi/include/sdkconfig.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_err.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/newlib/platform_include/stdio.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_compiler.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEServer.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEDevice.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/include/esp32c6/include/esp_bt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_system/include/esp_task.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/config/include/freertos/FreeRTOSConfig.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/config/riscv/include/freertos/FreeRTOSConfig_arch.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/portable.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/spinlock.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_cpu.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/riscv/csr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/riscv/encoding.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_assert.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/riscv/rv_utils.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/interrupt_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/interrupt_matrix_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/soc.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_bit_defs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/reg_base.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/intpri_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/plic_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_attr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/riscv/interrupt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/esp_private/interrupt_plic.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/esp_private/interrupt_deprecated.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/riscv/include/riscv/csr_pie.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_intr_alloc.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_intr_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_macros.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_assert.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_rom/include/esp_rom_sys.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/reset_reasons.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/heap/include/esp_heap_caps.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/heap/include/multi_heap.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_system/include/esp_system.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_idf_version.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/newlib/platform_include/esp_newlib.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_timer/include/esp_timer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_etm.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/esp_additions/include/freertos/idf_additions.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/list.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/semphr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/npl/freertos/include/nimble/nimble_npl.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/npl/freertos/include/nimble/nimble_npl_os.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/npl/freertos/include/nimble/npl_freertos.h \
- C:/Users/ctgcontrols8601/AppData/Local/Arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-f1a1df9b-v3/esp32c6/include/bt/controller/esp32c6/esp_bt_cfg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/syscfg/syscfg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/port/include/esp_nimble_cfg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/efuse_hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/efuse_ll.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/include/soc/efuse_periph.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/efuse_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/efuse_defs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/efuse_struct.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/platform_port/include/hal/misc.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/platform_port/include/hal/assert.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_rom/esp32c6/include/esp32c6/rom/efuse.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/efuse_hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/ecdsa_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_private/esp_modem_clock.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/periph_defs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/interrupts.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/modem_clock_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_private/esp_pmu.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/clk_tree_defs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/pmu_hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/pmu_ll.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/pmu_struct.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/pmu_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/pmu_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/port/esp32c6/private_include/pmu_param.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_common/include/esp_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/port/esp32c6/private_include/pmu_bit_defs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/modem_clock_hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/modem_syscon_ll.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/modem/modem_syscon_struct.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/esp32c6/include/hal/modem_lpcon_ll.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/modem/modem_lpcon_struct.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/include/esp32/include/esp_bt.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_system/include/esp_task.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/config/include/freertos/FreeRTOSConfig.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa_config.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/hal.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/core.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/xtensa-versions.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/core-isa.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/tie.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/system.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa_context.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/corebits.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/xtruntime-frames.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/portable.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/xtruntime.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/specreg.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/xtruntime-core-state.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xt_instr_macros.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa/xtruntime.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/spinlock.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_cpu.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xtensa_api.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/include/xt_utils.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/xtensa/esp32/include/xtensa/config/extreg.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_bit_defs.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_intr_alloc.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_intr_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_system/include/esp_private/crosscore_int.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_macros.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_assert.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_memory_utils.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/soc.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_assert.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/interrupts.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/register/soc/reg_base.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/newlib/platform_include/esp_newlib.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/heap/include/esp_heap_caps.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/heap/include/multi_heap.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_rom/include/esp_rom_sys.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/reset_reasons.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_system/include/esp_system.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_common/include/esp_idf_version.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_timer/include/esp_timer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_etm.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/esp_additions/include/freertos/idf_additions.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/list.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/semphr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/WString.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/pgmspace.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEClient.h \
@@ -104,58 +79,64 @@ C:\Users\ctgcontrols8601\Documents\GitHub\LckidsLabs\advanced_thermostat_arduino
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLERemoteCharacteristic.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLERemoteDescriptor.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEUUID.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_uuid.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/host/bluedroid/api/include/api/esp_gatt_defs.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/host/bluedroid/api/include/api/esp_bt_defs.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\RTOS.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Arduino.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp_arduino_version.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp8266-compat.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/gpio_reg.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/register/soc/gpio_reg.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/stdlib_noniso.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/binary.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/extra_attr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\variants\adafruit_feather_esp32c6/pins_arduino.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\variants\adafruit_feather_esp32_v2/pins_arduino.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_sleep.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/touch_sensor_legacy_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/gpio_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/gpio_num.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_sleep.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/touch_sensor_legacy_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/gpio_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/gpio_num.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-log.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_rom/esp32c6/include/esp32c6/rom/ets_sys.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_config.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_level.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_color.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_buffer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_timestamp.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_write.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_format.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_args.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_log_attr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/log/include/esp_private/log_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_rom/esp32/include/esp32/rom/ets_sys.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_config.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_level.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_color.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_buffer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_timestamp.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_write.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_format.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_args.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_log_attr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/log/include/esp_private/log_attr.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-matrix.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/gpio_sig_map.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/gpio_sig_map.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-uart.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/uart_pins.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/register/soc/io_mux_reg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/uart_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/uart_pins.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/register/soc/io_mux_reg.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/uart_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/clk_tree_defs.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-gpio.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_driver_gpio/include/driver/gpio.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_rom/include/esp_rom_gpio.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/soc/esp32c6/include/soc/gpio_pins.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_driver_gpio/include/driver/gpio_etm.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_gpio/include/driver/gpio.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_rom/include/esp_rom_gpio.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/soc/esp32/include/soc/gpio_pins.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_gpio/include/driver/gpio_etm.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-touch.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-touch-ng.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_touch_sens/include/driver/touch_sens.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_touch_sens/include/driver/touch_sens_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/touch_sens_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_touch_sens/hw_ver1/include/driver/touch_version_types.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-dac.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-adc.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-spi.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-i2c.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-ledc.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/ledc_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/ledc_types.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-rmt.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-sigmadelta.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-timer.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_driver_gptimer/include/driver/gptimer_types.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/hal/include/hal/timer_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_driver_gptimer/include/driver/gptimer_types.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/hal/include/hal/timer_types.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-bt.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-psram.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-rgb-led.h \
@@ -167,90 +148,51 @@ C:\Users\ctgcontrols8601\Documents\GitHub\LckidsLabs\advanced_thermostat_arduino
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Print.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Printable.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/IPAddress.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/ip_addr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/opt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/port/include/lwipopts.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/newlib/platform_include/sys/ioctl.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/newlib/platform_include/sys/poll.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/esp_random.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/port/include/sntp/sntp_get_set_time.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/port/include/sockets_ext.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/port/freertos/include/arch/sys_arch.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/debug.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/arch.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/port/esp32xx/include/arch/cc.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/def.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/ip4_addr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/ip6_addr.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/def.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/lwip/lwip/src/include/lwip/ip6_zone.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_netif/include/esp_netif_ip_addr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/ip_addr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/opt.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/port/include/lwipopts.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/newlib/platform_include/sys/ioctl.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/newlib/platform_include/sys/poll.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/esp_random.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/port/include/sntp/sntp_get_set_time.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/port/include/sockets_ext.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/port/freertos/include/arch/sys_arch.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/debug.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/arch.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/port/esp32xx/include/arch/cc.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/def.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/ip4_addr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/ip6_addr.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/def.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/lwip/lwip/src/include/lwip/ip6_zone.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_netif/include/esp_netif_ip_addr.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Client.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Server.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Udp.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/HardwareSerial.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/HWCDC.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_event/include/esp_event.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_event/include/esp_event_base.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_driver_usb_serial_jtag/include/driver/usb_serial_jtag.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/USBCDC.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Esp.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_partition/include/esp_partition.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/hal/cpu_hal.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_hw_support/include/hal/cpu_ll.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_partition/include/esp_partition.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/hal/cpu_hal.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_hw_support/include/hal/cpu_ll.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/freertos_stats.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/io_pin_remap.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/Arduino.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/esp_ringbuf/include/freertos/ringbuf.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_ringbuf/include/freertos/ringbuf.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEUtils.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEAddress.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/include/nimble/ble.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/os.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/endian.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/queue.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/os_error.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/os_mbuf.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/porting/include/os/os_mempool.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_gap.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/include/nimble/hci_common.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/include/nimble/ble.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/transport/include/nimble/transport.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/transport/include/nimble/transport_impl.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/transport/include/nimble/transport/monitor.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_att.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_eddystone.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_gatt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_gatt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_adv.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_id.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_hci.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_log.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/modlog/modlog.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/log_common/log_common.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/log_common/ignore.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/log/log.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/logcfg/logcfg.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_mbuf.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_hs_stop.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_ibeacon.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_l2cap.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/include/nimble/nimble_opt.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/include/nimble/nimble_opt_auto.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_sm.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_store.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_hs.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/include/host/ble_esp_gap.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/host/bluedroid/api/include/api/esp_gap_ble_api.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/host/bluedroid/api/include/api/esp_gattc_api.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/bt/host/bluedroid/api/include/api/esp_gatts_api.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEService.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLECharacteristic.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEDescriptor.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEConnInfo.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEValue.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEAdvertisedDevice.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEScan.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/porting/nimble/include/nimble/nimble_port.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEAdvertising.h \
- C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32c6/include/bt/host/nimble/nimble/nimble/host/services/gap/include/services/gap/ble_svc_gap.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLESecurity.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\BLEConnInfo.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src\GeneralUtils.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\cores\esp32/esp32-hal-log.h
