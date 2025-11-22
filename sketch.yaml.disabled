@@ -1,0 +1,14 @@
+profiles:
+  Adafruit_ESP32-C6_Feather:
+    fqbn: esp32:esp32:adafruit_feather_esp32c6:UploadSpeed=921600,CDCOnBoot=cdc,CPUFreq=160,FlashFreq=80,FlashMode=qio,PartitionScheme=default,DebugLevel=none,EraseFlash=all,JTAGAdapter=default,ZigbeeMode=default
+    platforms:
+      - platform: esp32:esp32 (3.3.3)
+    libraries:
+      - SimpleTimer (1.0.0)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: "1"
+default_profile: Adafruit_ESP32-C6_Feather

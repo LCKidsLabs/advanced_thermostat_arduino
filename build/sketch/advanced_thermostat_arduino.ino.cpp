@@ -3,15 +3,20 @@
 #include <BLEDevice.h>
 #include <SimpleTimer.h>
 
-#define LYWSD03MMC_ADDR "a4:c1:38:D3:71:A1"
+#define LYWSD03MMC_ADDR_HOUSE "a4:c1:38:D3:71:A1"
+#define LYWSD03MMC_ADDR_BARN "a4:c1:38:8C:DA:85"
 //D371A1
 //"a4:c1:38:D3:71:A1"
 //"a4:c1:38:8C:DA:85"
 
+int led = LED_BUILTIN;
+int loops = 0;
+
 
 BLEClient* pClient;
 
-static BLEAddress htSensorAddress(LYWSD03MMC_ADDR);
+static BLEAddress htSensorAddress01(LYWSD03MMC_ADDR_HOUSE);
+static BLEAddress htSensorAddress02(LYWSD03MMC_ADDR_BARN);
 
 bool connectionSuccessful = false;
 
@@ -34,19 +39,19 @@ class MyClientCallback : public BLEClientCallbacks {
     }
 };
 
-#line 35 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 40 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 static void notifyCallback( BLERemoteCharacteristic* pBLERemoteCharacteristic, uint8_t* pData, size_t length, bool isNotify);
-#line 50 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 59 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void registerNotification();
-#line 72 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 91 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void setup();
-#line 84 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 107 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void loop();
-#line 92 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 148 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void createBleClientWithCallbacks();
-#line 97 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
-void connectSensor();
-#line 35 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 153 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+void connectSensor(int loops);
+#line 40 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 static void notifyCallback(
   BLERemoteCharacteristic* pBLERemoteCharacteristic,
   uint8_t* pData,
@@ -54,11 +59,15 @@ static void notifyCallback(
   bool isNotify) {
   float temp;
   float humi;
+  float mV;
   Serial.print("Notify callback for characteristic ");
   Serial.println(pBLERemoteCharacteristic->getUUID().toString().c_str());
   temp = (pData[0] | (pData[1] << 8)) * 0.01; //little endian 
   humi = pData[2];
-  Serial.printf("temp = %.1f : humidity = %.1f \n", temp, humi);
+  mV = (pData[3] | (pData[4] << 8));
+  Serial.printf("temp = %.1f : humidity = %.1f  : mV = %.1f \n", temp, humi, mV);
+  size_t xlength = sizeof(pData) / sizeof(pData[0]);
+  Serial.println(xlength );
   pClient->disconnect();
 }
 
@@ -72,36 +81,83 @@ void registerNotification() {
     pClient->disconnect();
   }
   Serial.println(" - Found our service");
-
-  // Obtain a reference to the characteristic in the service of the remote BLE server.
-  BLERemoteCharacteristic* pRemoteCharacteristic = pRemoteService->getCharacteristic(charUUID);
-  if (pRemoteCharacteristic == nullptr) {
-    Serial.print("Failed to find our characteristic UUID: ");
-    Serial.println(charUUID.toString().c_str());
-    pClient->disconnect();
+  try
+  {
+    // Obtain a reference to the characteristic in the service of the remote BLE server.
+    BLERemoteCharacteristic* pRemoteCharacteristic = pRemoteService->getCharacteristic(charUUID);
+    if (pRemoteCharacteristic == nullptr) {
+      Serial.print("Failed to find our characteristic UUID: ");
+      Serial.println(charUUID.toString().c_str());
+      pClient->disconnect();
+    }
+    Serial.println(" - Found our characteristic");
+    pRemoteCharacteristic->registerForNotify(notifyCallback);
   }
-  Serial.println(" - Found our characteristic");
-  pRemoteCharacteristic->registerForNotify(notifyCallback);
+  catch(const std::exception& e)
+  {
+    Serial.println(e.what());
+  }
+  
+  
+  
+
 }
 
 void setup() {
   Serial.begin(115200);
   Serial.println("Starting MJ client...");
-  delay(500);
+
+  // set LED to be an output pin
+  pinMode(led, OUTPUT);
+  
+  delay(3000);
 
   BLEDevice::init("ESP32");
   //createBleClientWithCallbacks();
-  //delay(500);
+  //delay(1000);
   //connectSensor();
   //registerNotification();
 }
 
 void loop() {
   // do nothing
-  createBleClientWithCallbacks();
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+  Serial.println("");
+  Serial.print("Loop: ");
+  Serial.println(loops);
+  try
+  {
+    createBleClientWithCallbacks();
+  }
+  catch(const std::exception& e)
+  {
+    Serial.println(e.what());
+  }
   delay(500);
-  connectSensor();
-  registerNotification();
+  try
+  {
+    connectSensor(loops);
+  }
+  catch(const std::exception& e)
+  {
+    Serial.println(e.what());
+  }
+    try
+  {
+    registerNotification();
+  }
+  catch(const std::exception& e)
+  {
+    Serial.println(e.what());
+  }
+  
+  
+  
+  
+  // wait for a half second
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
+  delay(45000);                // wait for a half second
+  loops++;
 }
 
 void createBleClientWithCallbacks() {
@@ -109,7 +165,13 @@ void createBleClientWithCallbacks() {
   pClient->setClientCallbacks(new MyClientCallback());
 }
 
-void connectSensor() {
-  pClient->connect(htSensorAddress);
+void connectSensor(int loops) {
+  if (loops % 2 == 0) {
+        pClient->connect(htSensorAddress01);
+        Serial.println("Connecting to the House");
+  } else {
+        pClient->connect(htSensorAddress02);
+        Serial.println("Connecting to the Barn");
+  }
   connectionSuccessful = true;
 }

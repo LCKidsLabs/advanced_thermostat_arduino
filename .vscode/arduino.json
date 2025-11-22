@@ -1,13 +1,13 @@
 {
   "port": "COM4",
-  "configuration": "UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=all,ZigbeeMode=default",
+  "configuration": "UploadSpeed=921600,CDCOnBoot=cdc,CPUFreq=160,FlashFreq=80,FlashMode=qio,PartitionScheme=default,DebugLevel=none,EraseFlash=all,JTAGAdapter=default,ZigbeeMode=default",
   "output": "build",
-  "board": "esp32:esp32:adafruit_feather_esp32_v2",
+  "board": "esp32:esp32:adafruit_feather_esp32c6",
   "programmer": "esptool",
   "useProgrammer": false,
   "optimize_for_debug": false,
   "configurationRequired": true,
-  "compile_profile": "",
+  "compile_profile": "Adafruit_ESP32-C6_Feather",
   "monitorPortSettings": {
     "settings": {
       "port": "COM4",
