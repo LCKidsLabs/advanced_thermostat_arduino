@@ -196,4 +196,5 @@ C:\Users\ctgcontrols8601\Documents\GitHub\LckidsLabs\advanced_thermostat_arduino
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src/BLERemoteDescriptor.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src/BLEAdvertisedDevice.h \
  C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.3\libraries\BLE\src/BLEScan.h \
- C:\Users\ctgcontrols8601\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h
+ C:\Users\ctgcontrols8601\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
+ C:\Users\ctgcontrols8601\AppData\Local\Arduino15\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.5-f1a1df9b-v3\esp32/include/esp_system/include/esp_task_wdt.h

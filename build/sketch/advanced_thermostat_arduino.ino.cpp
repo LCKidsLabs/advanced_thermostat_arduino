@@ -2,9 +2,12 @@
 #line 1 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 #include <BLEDevice.h>
 #include <SimpleTimer.h>
+#include <esp_task_wdt.h>
 
 #define LYWSD03MMC_ADDR_HOUSE "a4:c1:38:D3:71:A1"
 #define LYWSD03MMC_ADDR_BARN "a4:c1:38:8C:DA:85"
+#define WDT_TIMEOUT 60
+#define FREEZE_AFTER 60
 //D371A1
 //"a4:c1:38:D3:71:A1"
 //"a4:c1:38:8C:DA:85"
@@ -25,6 +28,8 @@ static BLEUUID serviceUUID("ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6");
 // The characteristic of the remote service we are interested in.
 static BLEUUID    charUUID("ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6");
 
+
+
 class MyClientCallback : public BLEClientCallbacks {
     void onConnect(BLEClient* pclient) {
       Serial.println("Connected");
@@ -39,19 +44,19 @@ class MyClientCallback : public BLEClientCallbacks {
     }
 };
 
-#line 40 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 45 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 static void notifyCallback( BLERemoteCharacteristic* pBLERemoteCharacteristic, uint8_t* pData, size_t length, bool isNotify);
-#line 82 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 87 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void registerNotification();
-#line 114 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 119 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void setup();
-#line 131 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 145 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void loop();
-#line 181 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 195 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void createBleClientWithCallbacks();
-#line 186 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 200 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void connectSensor(int loops);
-#line 40 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 45 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 static void notifyCallback(
   BLERemoteCharacteristic* pBLERemoteCharacteristic,
   uint8_t* pData,
@@ -128,13 +133,22 @@ void registerNotification() {
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Starting MJ client...");
+
+  Serial.println("Setting up Watchdog Timer..");
+  esp_task_wdt_deinit();
+  esp_task_wdt_config_t wdt_config = {
+    .timeout_ms = WDT_TIMEOUT * 1000,
+    .idle_core_mask = 1 << 0,
+    .trigger_panic = true
+  };
+  esp_task_wdt_init(&wdt_config);
+  esp_task_wdt_add(NULL);
 
   // set LED to be an output pin
   pinMode(led, OUTPUT);
   
-  delay(3000);
-
+  delay(500);
+  Serial.println("Starting MJ client...");
   BLEDevice::init("ESP32");
   esp_sleep_enable_timer_wakeup(25000000);
   //createBleClientWithCallbacks();
@@ -146,7 +160,7 @@ void setup() {
 void loop() {
   // do nothing
 
-
+  esp_task_wdt_reset();
 
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   Serial.println("");

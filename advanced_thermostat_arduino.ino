@@ -1,8 +1,11 @@
 #include <BLEDevice.h>
 #include <SimpleTimer.h>
+#include <esp_task_wdt.h>
 
 #define LYWSD03MMC_ADDR_HOUSE "a4:c1:38:D3:71:A1"
 #define LYWSD03MMC_ADDR_BARN "a4:c1:38:8C:DA:85"
+#define WDT_TIMEOUT 60
+#define FREEZE_AFTER 60
 //D371A1
 //"a4:c1:38:D3:71:A1"
 //"a4:c1:38:8C:DA:85"
@@ -22,6 +25,8 @@ bool connectionSuccessful = false;
 static BLEUUID serviceUUID("ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6");
 // The characteristic of the remote service we are interested in.
 static BLEUUID    charUUID("ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6");
+
+
 
 class MyClientCallback : public BLEClientCallbacks {
     void onConnect(BLEClient* pclient) {
@@ -113,15 +118,24 @@ void registerNotification() {
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Starting MJ client...");
+
+  Serial.println("Setting up Watchdog Timer..");
+  esp_task_wdt_deinit();
+  esp_task_wdt_config_t wdt_config = {
+    .timeout_ms = WDT_TIMEOUT * 1000,
+    .idle_core_mask = 1 << 0,
+    .trigger_panic = true
+  };
+  esp_task_wdt_init(&wdt_config);
+  esp_task_wdt_add(NULL);
 
   // set LED to be an output pin
   pinMode(led, OUTPUT);
   
-  delay(3000);
-
+  delay(500);
+  Serial.println("Starting MJ client...");
   BLEDevice::init("ESP32");
-  esp_sleep_enable_timer_wakeup(25000000);
+  esp_sleep_enable_timer_wakeup(45000000);
   //createBleClientWithCallbacks();
   //delay(1000);
   //connectSensor();
@@ -131,7 +145,7 @@ void setup() {
 void loop() {
   // do nothing
 
-
+  esp_task_wdt_reset();
 
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   Serial.println("");
@@ -145,7 +159,7 @@ void loop() {
   {
     Serial.println(e.what());
   }
-  delay(500);
+  delay(250);
   try
   {
     connectSensor(loops);
@@ -170,12 +184,12 @@ void loop() {
 
   if (loops == 2){
     digitalWrite(led, LOW);
-    delay(6000);
-    Serial.print("I am tired, going to sleep for 25 Sec");
+    Serial.print("I am tired, going to sleep for 45 Sec");
     Serial.flush();
+    delay(5500);
     esp_deep_sleep_start();
   }
-  delay(6000);
+  delay(5500);
 }
 
 void createBleClientWithCallbacks() {
