@@ -218,101 +218,11 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLECharacteristicMap.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAddress.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLECharacteristicMap.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEAddress.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLECharacteristicMap.cpp"
- },
- {
-  "directory": "C:\\Program Files\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
-   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
-   "-DARDUINO_PARTITION_default_8MB",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DBOARD_HAS_PSRAM",
-   "-mfix-esp32-psram-cache-issue",
-   "-mfix-esp32-psram-cache-strategy=memw",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
-   "-iprefix",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLE2902.cpp",
-   "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLE2902.cpp.o"
-  ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLE2902.cpp"
- },
- {
-  "directory": "C:\\Program Files\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
-   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
-   "-DARDUINO_PARTITION_default_8MB",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DBOARD_HAS_PSRAM",
-   "-mfix-esp32-psram-cache-issue",
-   "-mfix-esp32-psram-cache-strategy=memw",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
-   "-iprefix",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEClient.cpp",
-   "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEClient.cpp.o"
-  ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEClient.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAddress.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -398,11 +308,11 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAdvertisedDevice.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLE2902.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEAdvertisedDevice.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLE2902.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAdvertisedDevice.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLE2902.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -443,11 +353,11 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAddress.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLECharacteristicMap.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEAddress.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLECharacteristicMap.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAddress.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLECharacteristicMap.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -583,6 +493,96 @@
    "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEDescriptor.cpp.o"
   ],
   "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEDescriptor.cpp"
+ },
+ {
+  "directory": "C:\\Program Files\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
+   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
+   "-DARDUINO_PARTITION_default_8MB",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DBOARD_HAS_PSRAM",
+   "-mfix-esp32-psram-cache-issue",
+   "-mfix-esp32-psram-cache-strategy=memw",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
+   "-iprefix",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEClient.cpp",
+   "-o",
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEClient.cpp.o"
+  ],
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEClient.cpp"
+ },
+ {
+  "directory": "C:\\Program Files\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
+   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
+   "-DARDUINO_PARTITION_default_8MB",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DBOARD_HAS_PSRAM",
+   "-mfix-esp32-psram-cache-issue",
+   "-mfix-esp32-psram-cache-strategy=memw",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
+   "-iprefix",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAdvertisedDevice.cpp",
+   "-o",
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEAdvertisedDevice.cpp.o"
+  ],
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEAdvertisedDevice.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -848,11 +848,11 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteService.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteCharacteristic.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLERemoteService.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLERemoteCharacteristic.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteService.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteCharacteristic.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -938,11 +938,11 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteCharacteristic.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteService.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLERemoteCharacteristic.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLERemoteService.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteCharacteristic.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLERemoteService.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1073,51 +1073,6 @@
    "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEService.cpp",
-   "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEService.cpp.o"
-  ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEService.cpp"
- },
- {
-  "directory": "C:\\Program Files\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
-   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
-   "-DARDUINO_PARTITION_default_8MB",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DBOARD_HAS_PSRAM",
-   "-mfix-esp32-psram-cache-issue",
-   "-mfix-esp32-psram-cache-strategy=memw",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
-   "-iprefix",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
    "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEServer.cpp",
    "-o",
    "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEServer.cpp.o"
@@ -1168,6 +1123,51 @@
    "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEServiceMap.cpp.o"
   ],
   "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEServiceMap.cpp"
+ },
+ {
+  "directory": "C:\\Program Files\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
+   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
+   "-DARDUINO_PARTITION_default_8MB",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DBOARD_HAS_PSRAM",
+   "-mfix-esp32-psram-cache-issue",
+   "-mfix-esp32-psram-cache-strategy=memw",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
+   "-iprefix",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\Arduino\\libraries\\SimpleTimer",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEService.cpp",
+   "-o",
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\libraries\\BLE\\BLEService.cpp.o"
+  ],
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\libraries\\BLE\\src\\BLEService.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1605,11 +1605,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\IPAddress.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\FirmwareMSC.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\IPAddress.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\FirmwareMSC.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\IPAddress.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\FirmwareMSC.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1691,11 +1691,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HashBuilder.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\MacAddress.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HashBuilder.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\MacAddress.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HashBuilder.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\MacAddress.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1734,54 +1734,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HardwareSerial.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\IPAddress.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HardwareSerial.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\IPAddress.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HardwareSerial.cpp"
- },
- {
-  "directory": "C:\\Program Files\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
-   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
-   "-DARDUINO_PARTITION_default_8MB",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DBOARD_HAS_PSRAM",
-   "-mfix-esp32-psram-cache-issue",
-   "-mfix-esp32-psram-cache-strategy=memw",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
-   "-iprefix",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HEXBuilder.cpp",
-   "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HEXBuilder.cpp.o"
-  ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HEXBuilder.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\IPAddress.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1825,49 +1782,6 @@
    "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\FunctionalInterrupt.cpp.o"
   ],
   "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\FunctionalInterrupt.cpp"
- },
- {
-  "directory": "C:\\Program Files\\Microsoft VS Code",
-  "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
-   "-MMD",
-   "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
-   "-w",
-   "-Os",
-   "-Werror=return-type",
-   "-DF_CPU=240000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
-   "-DARDUINO_ARCH_ESP32",
-   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
-   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
-   "-DARDUINO_PARTITION_default_8MB",
-   "-DARDUINO_HOST_OS=\"windows\"",
-   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
-   "-DESP32=ESP32",
-   "-DCORE_DEBUG_LEVEL=0",
-   "-DARDUINO_RUNNING_CORE=1",
-   "-DARDUINO_EVENT_RUNNING_CORE=1",
-   "-DBOARD_HAS_PSRAM",
-   "-mfix-esp32-psram-cache-issue",
-   "-mfix-esp32-psram-cache-strategy=memw",
-   "-DARDUINO_USB_CDC_ON_BOOT=0",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
-   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
-   "-iprefix",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
-   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
-   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\FirmwareMSC.cpp",
-   "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\FirmwareMSC.cpp.o"
-  ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\FirmwareMSC.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -1992,11 +1906,54 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\MacAddress.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HEXBuilder.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\MacAddress.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HEXBuilder.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\MacAddress.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HEXBuilder.cpp"
+ },
+ {
+  "directory": "C:\\Program Files\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
+   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
+   "-DARDUINO_PARTITION_default_8MB",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DBOARD_HAS_PSRAM",
+   "-mfix-esp32-psram-cache-issue",
+   "-mfix-esp32-psram-cache-strategy=memw",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
+   "-iprefix",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HardwareSerial.cpp",
+   "-o",
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HardwareSerial.cpp.o"
+  ],
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HardwareSerial.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2078,6 +2035,49 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HashBuilder.cpp",
+   "-o",
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\HashBuilder.cpp.o"
+  ],
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\HashBuilder.cpp"
+ },
+ {
+  "directory": "C:\\Program Files\\Microsoft VS Code",
+  "arguments": [
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "-MMD",
+   "-c",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "-w",
+   "-Os",
+   "-Werror=return-type",
+   "-DF_CPU=240000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+   "-DARDUINO_ARCH_ESP32",
+   "-DARDUINO_BOARD=\"ADAFRUIT_FEATHER_ESP32_V2\"",
+   "-DARDUINO_VARIANT=\"adafruit_feather_esp32_v2\"",
+   "-DARDUINO_PARTITION_default_8MB",
+   "-DARDUINO_HOST_OS=\"windows\"",
+   "-DARDUINO_FQBN=\"esp32:esp32:adafruit_feather_esp32_v2:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashSize=8M,PartitionScheme=default_8MB,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,ZigbeeMode=default\"",
+   "-DESP32=ESP32",
+   "-DCORE_DEBUG_LEVEL=0",
+   "-DARDUINO_RUNNING_CORE=1",
+   "-DARDUINO_EVENT_RUNNING_CORE=1",
+   "-DBOARD_HAS_PSRAM",
+   "-mfix-esp32-psram-cache-issue",
+   "-mfix-esp32-psram-cache-strategy=memw",
+   "-DARDUINO_USB_CDC_ON_BOOT=0",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/defines",
+   "-IC:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino",
+   "-iprefix",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/include/",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/includes",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/dio_qspi/include",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32",
+   "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
+   "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
    "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\StreamString.cpp",
    "-o",
    "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\StreamString.cpp.o"
@@ -2121,11 +2121,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\Tone.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\USB.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\Tone.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\USB.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\Tone.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\USB.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2164,11 +2164,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\USB.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\Tone.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\USB.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\Tone.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\USB.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\Tone.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2379,11 +2379,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\cbuf.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\base64.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\cbuf.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\base64.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\cbuf.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\base64.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2422,11 +2422,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\base64.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\cbuf.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\base64.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\cbuf.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\base64.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\cbuf.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2680,11 +2680,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-gpio.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-hosted.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-gpio.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-hosted.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-gpio.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-hosted.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -2723,11 +2723,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-hosted.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-gpio.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-hosted.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-gpio.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-hosted.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-gpio.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3196,11 +3196,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-sigmadelta.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-time.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-sigmadelta.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-time.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-sigmadelta.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-time.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3282,11 +3282,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-time.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-sigmadelta.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-time.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\esp32-hal-sigmadelta.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-time.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\esp32-hal-sigmadelta.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3592,10 +3592,10 @@
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
   "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-gcc",
    "-MMD",
    "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/c_flags",
    "-w",
    "-Os",
    "-Werror=return-type",
@@ -3626,11 +3626,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\main.cpp",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\libb64\\cdecode.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\main.cpp.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\libb64\\cdecode.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\main.cpp"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\libb64\\cdecode.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3678,10 +3678,10 @@
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
   "arguments": [
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-gcc",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2507/bin/xtensa-esp32-elf-g++",
    "-MMD",
    "-c",
-   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/c_flags",
+   "@C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp32-arduino-libs\\idf-release_v5.5-f1a1df9b-v3\\esp32/flags/cpp_flags",
    "-w",
    "-Os",
    "-Werror=return-type",
@@ -3712,11 +3712,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\libb64\\cdecode.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\main.cpp",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\libb64\\cdecode.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\main.cpp.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\libb64\\cdecode.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\main.cpp"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3798,11 +3798,11 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_pulse.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_shift.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\wiring_pulse.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\wiring_shift.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_pulse.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_shift.c"
  },
  {
   "directory": "C:\\Program Files\\Microsoft VS Code",
@@ -3841,10 +3841,10 @@
    "-IC:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\variants\\adafruit_feather_esp32_v2",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/build_opt.h",
    "@C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build/file_opts",
-   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_shift.c",
+   "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_pulse.c",
    "-o",
-   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\wiring_shift.c.o"
+   "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\build\\core\\wiring_pulse.c.o"
   ],
-  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_shift.c"
+  "file": "C:\\Users\\ctgcontrols8601\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.3.3\\cores\\esp32\\wiring_pulse.c"
  }
 ]

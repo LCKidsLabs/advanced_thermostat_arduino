@@ -6,7 +6,7 @@
 
 #define LYWSD03MMC_ADDR_HOUSE "a4:c1:38:D3:71:A1"
 #define LYWSD03MMC_ADDR_BARN "a4:c1:38:8C:DA:85"
-#define WDT_TIMEOUT 60
+#define WDT_TIMEOUT 75
 #define FREEZE_AFTER 60
 //D371A1
 //"a4:c1:38:D3:71:A1"
@@ -52,9 +52,9 @@ void registerNotification();
 void setup();
 #line 145 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void loop();
-#line 195 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 196 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void createBleClientWithCallbacks();
-#line 200 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
+#line 201 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 void connectSensor(int loops);
 #line 45 "C:\\Users\\ctgcontrols8601\\Documents\\GitHub\\LckidsLabs\\advanced_thermostat_arduino\\advanced_thermostat_arduino.ino"
 static void notifyCallback(
@@ -150,7 +150,7 @@ void setup() {
   delay(500);
   Serial.println("Starting MJ client...");
   BLEDevice::init("ESP32");
-  esp_sleep_enable_timer_wakeup(25000000);
+  esp_sleep_enable_timer_wakeup(60000000);
   //createBleClientWithCallbacks();
   //delay(1000);
   //connectSensor();
@@ -174,7 +174,7 @@ void loop() {
   {
     Serial.println(e.what());
   }
-  delay(500);
+  delay(250);
   try
   {
     connectSensor(loops);
@@ -199,12 +199,13 @@ void loop() {
 
   if (loops == 2){
     digitalWrite(led, LOW);
-    delay(6000);
-    Serial.print("I am tired, going to sleep for 25 Sec");
+    delay(5000);
+    Serial.print("I am tired, going to sleep for 60 Sec");
     Serial.flush();
+    
     esp_deep_sleep_start();
   }
-  delay(6000);
+  delay(5000);
 }
 
 void createBleClientWithCallbacks() {

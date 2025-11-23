@@ -4,7 +4,7 @@
 
 #define LYWSD03MMC_ADDR_HOUSE "a4:c1:38:D3:71:A1"
 #define LYWSD03MMC_ADDR_BARN "a4:c1:38:8C:DA:85"
-#define WDT_TIMEOUT 60
+#define WDT_TIMEOUT 75
 #define FREEZE_AFTER 60
 //D371A1
 //"a4:c1:38:D3:71:A1"
@@ -135,7 +135,7 @@ void setup() {
   delay(500);
   Serial.println("Starting MJ client...");
   BLEDevice::init("ESP32");
-  esp_sleep_enable_timer_wakeup(45000000);
+  esp_sleep_enable_timer_wakeup(60000000);
   //createBleClientWithCallbacks();
   //delay(1000);
   //connectSensor();
@@ -184,12 +184,13 @@ void loop() {
 
   if (loops == 2){
     digitalWrite(led, LOW);
-    Serial.print("I am tired, going to sleep for 45 Sec");
+    delay(5000);
+    Serial.print("I am tired, going to sleep for 60 Sec");
     Serial.flush();
-    delay(5500);
+    
     esp_deep_sleep_start();
   }
-  delay(5500);
+  delay(5000);
 }
 
 void createBleClientWithCallbacks() {
